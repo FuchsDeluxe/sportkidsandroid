@@ -3,6 +3,7 @@
     <blacklists>
       <blacklist language="Java">
         <added pattern="android.app.AlertDialog.Builder.Builder(context)" />
+        <added pattern="android.widget.Toast.makeText(context,text,duration)" />
       </blacklist>
     </blacklists>
   </component>
